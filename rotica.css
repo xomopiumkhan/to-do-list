@@ -1,0 +1,20 @@
+* {padding: 0; margin: 0;}
+
+body {background: skyblue;	}
+
+.main {width: 350px;position: absolute; transform: translate(-50%,-50%); top: 50%; left: 50%; background: #fff; padding: 30px 20px; border-radius: 5px; box-shadow: 2px 2px 20px rgba(0,0,0,0.3); font-family: 'Roboto', sans-serif;}
+.input-container {margin: 10px 0; width: 100%; display: flex;}
+.input {padding: 5px; width: 100%; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 500}
+.btn {padding: 0 15px; font-size: 30px; margin-left: 4px; background: #8E48EA; color: #fff; border: none; cursor: pointer;}
+.btn:hover {background: #6a37ad;}
+.output-container {margin-bottom: 10px; width: 100%; display: flex; justify-content: space-between; background: #F2F2F2; transition: 0.3s; align-items: center;}
+.output {overflow: hidden;resize: none; margin: 10px 10px; width: 70%; height: 0;font-family: 'Poppins', sans-serif; font-weight: 500; font-size: 15px; outline: none; border: none} 
+.dlt-btn {border-radius: 2px; padding: 5px 10px; font-size: 15px; outline: none; border: none; background: #8a1717; color: #fff; cursor: pointer; opacity: 0.0; transition: 0.3s}
+.edit-btn {border-radius: 2px; padding: 5px 10px; font-size: 15px; outline: none; border: none; background: #1eba62; color: #fff; cursor: pointer; opacity: 0.0; transition: 0.3s}
+.output-container:hover .dlt-btn {opacity: 1;} .output-container:hover .edit-btn {opacity: 1;}
+.dlt-btn:hover {background: #a63030} .edit-btn:hover {background: #42d482}
+.output-container-col {display: none;}
+.output:disabled {
+  color: #111;
+}
+.credits {text-align: center;writing-mode: vertical-rl; font-family: 'Roboto', sans-serif; margin-top: 10%; margin-left: 1%;} 
